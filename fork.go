@@ -9,3 +9,8 @@ func (f *ForkCommand) Execute(args []string) error {
 func (f *ForkCommand) Usage() string {
 	return "[repo]"
 }
+
+func (f *ForkCommand) Usage() string {
+        return "[repo]"
+}
+
