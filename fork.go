@@ -10,7 +10,4 @@ func (f *ForkCommand) Usage() string {
 	return "[repo]"
 }
 
-func (f *ForkCommand) Usage() string {
-        return "[repo]"
-}
 
